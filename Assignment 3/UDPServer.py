@@ -12,7 +12,7 @@ LEDS = 0x00000100
 hostname = socket.gethostname()
 IPAddr = socket.gethostbyname(hostname)
 # UDP Server Info
-UDP_IP = "192.168.1.134"
+UDP_IP = "0.0.0.0"  # Listen on all available interfaces
 UDP_PORT = 80
 
 # Convert 1 digit into 7-seg bit pattern
